@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TaskMonitor_UniStudent</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="email">Email</string>
+    <string name="nic">NIC</string>
+    <string-array name="spTaskType">
+        <item>SPACED REPETITION</item>
+        <item>POMODORO</item>
+    </string-array>
+    <string-array name="task_types">
+        <item>Work</item>
+        <item>Study</item>
+        <item>Exercise</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+</resources>
