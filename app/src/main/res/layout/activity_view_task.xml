@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF8096"
+    android:padding="16dp">
+
+    <!-- Header -->
+
+    <!-- Calendar Icon -->
+
+    <!-- Notification Icon -->
+
+    <ImageView
+        android:id="@+id/setting"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="-363dp"
+        android:layout_toStartOf="@id/header_title"
+        android:src="@drawable/menu" />
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp"
+        android:text="View All Task"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Task List -->
+
+    <ImageView
+        android:id="@+id/calendar_icon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="-323dp"
+        android:layout_toStartOf="@id/header_title"
+        android:src="@drawable/calend" />
+
+    <ImageView
+        android:id="@+id/notification_icon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/calendar_icon"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="-31dp"
+        android:layout_toEndOf="@id/header_title"
+        android:src="@drawable/baseline_add_alert_24" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/task_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/header_title"
+        android:layout_above="@id/add_task_button"
+        android:clipToPadding="false"
+        android:paddingBottom="16dp" />
+
+    <!-- Add Task Button -->
+    <ImageButton
+        android:id="@+id/add_task_button"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="#FF8096"
+        android:contentDescription="Add Task"
+        android:src="@drawable/add" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="601dp"
+        android:layout_marginEnd="151dp"
+        android:text="ADD TASKS" />
+
+</RelativeLayout>
+
