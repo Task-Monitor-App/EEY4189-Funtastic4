@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F67280"
+    android:padding="16dp">
+
+
+    <ImageButton
+        android:id="@+id/NotifiButton"
+        android:layout_width="52dp"
+        android:layout_height="36dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="61dp"
+        android:background="#F67280"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/baseline_add_alert_24" />
+
+    <ImageButton
+        android:id="@+id/CalenButton"
+        android:layout_width="50dp"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="107dp"
+        android:background="#F67280"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/download" />
+
+    <ImageView
+        android:id="@+id/taskImage"
+        android:layout_width="395dp"
+        android:layout_height="196dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="0dp"
+        android:contentDescription="Task Image"
+        android:paddingBottom="16dp"
+        android:src="@drawable/ima" />
+
+    <LinearLayout
+        android:layout_width="214dp"
+        android:layout_height="487dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="216dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/reportButton"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="#F67280"
+            android:contentDescription="report"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/report"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="138dp"
+            android:layout_height="26dp"
+            android:layout_gravity="center"
+            android:text="Report"
+            android:textAlignment="center"
+            android:textColor="#050505"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/addButton"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="#F67280"
+            android:contentDescription="addtask"
+            android:padding="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/add" />
+
+        <TextView
+            android:layout_width="108dp"
+            android:layout_height="26dp"
+            android:layout_gravity="center"
+            android:text="Add Task"
+            android:textAlignment="center"
+            android:textColor="#070707"
+            android:textColorHint="#020202"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/viewButton"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="#F67280"
+            android:contentDescription="viewtask"
+            android:padding="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/baseline_screen_search_desktop_24" />
+
+        <TextView
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="View Task"
+            android:textAlignment="center"
+            android:textColor="#090909"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/pomodoro_button"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="457dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="#4A1010"
+        android:text=" Pomodoro  "
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/space_button"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_below="@+id/pomodoro_button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="0dp"
+        android:backgroundTint="#B11206"
+        android:text="Space Repitition"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/profileButton"
+        android:layout_width="50dp"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="7dp"
+        android:background="#F67280"
+        app:srcCompat="@drawable/baseline_account_circle_24" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="210dp"
+        android:layout_height="123dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="374dp"
+        android:layout_marginEnd="-38dp"
+        android:text="Start Your Task.
+       Selecting Reminder Technique"
+        android:textColor="#040000"
+        android:textSize="20sp" />
+
+</RelativeLayout>
